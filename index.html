@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio_Ronald</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="wrapper">
+      <header>
+        <nav class="navbar">
+          <div class="brand">
+            <a name="brand"
+              ><h2>H<span>M</span></h2></a
+            >
+          </div>
+          <ul class="menu" id="menu">
+            <li><a class="active" name="home">Quien soy</a></li>
+            <li><a href="#about">Guias espirituales</a></li>
+            <li><a class="quitar" href="#portfolio">Servicios</a></li>
+            <li><a href="#contact">Contactame</a></li>
+          </ul>
+          <div class="toggle-menu">
+            <i class="fas fa-bars" id="toggle_open"></i>
+            <i class="fas fa-close" id="toggle_close"></i>
+          </div>
+        </nav>
+      </header>
+
+      <!-- MAIN -->
+      <main class="main">
+        <div class="info-content">
+          <span class="info-content__subtitle">Guia espiritual</span>
+          <h1>Hola soy <span>Hugo</span> Madariaga</h1>
+          <p>
+            Mi principal objetivo es la visualización de tu destino y las variantes
+            en las cuales oscila el camino predestinado a seguir ... Ejemplo : tus
+            aptitudes profesionales , tus capacidades y potenciales intelectuales
+            y psíquicos y físicos todos tus poderes y cualidades con las cuales
+            has sido provisto para construir y ser el maestro de tu propio destino
+            ; al mismo tiempo descubrirás los opuestos y aspectos negativos que
+            pueden representar un obstáculo en tu destino ... !!!
+          </p>
+          <div class="sotial-network"></div>
+        </div>
+        <img src="./img/1c705eb071323936501cbc74878598e9.jpg" alt="Ronald_Picture" />
+      </main>
+    </div>
+
+    <!-- ABOUT ME -->
+    <div class="about">
+      <img src="./img/we-are-all-made-of-stars-spiritual-meaning-2.jpg" alt="Ronald_picture2" />
+
+      <div class="about-info">
+        <a name="about" href="#home"><h2>Guias Espirituales</h2></a>
+        <div class="divider"></div>
+        <p>
+          Los guías espirituales son seres que han hecho la transición al más
+          allá. Pero en lugar de reencarnarse nuevamente en la tierra, han
+          optado por dedicar su existencia a ser guías espirituales como una
+          forma de continuar la evolución de su alma. Estamos «emparejados» con
+          los guías espirituales que pueden servirnos mejor. Esto puede ser por
+          fortalezas complementarias o similares entre almas.
+        </p>
+     
+      </div>
+    </div>
+
+    <!-- PORTAFOLIO -->
+    <div class="portfolio">
+      <div class="portfolio-headings">
+        <a name="portfolio" href="#home"><h2>Mis servicios</h2></a>
+        <div class="divider"></div>
+      </div>
+
+      <div class="container">
+        <div class="card">
+          <div class="card__img"></div>
+          <div class="card__title">
+            <h2>Tirage de cartas</h2>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card__img"></div>
+          <div class="card__title">
+            <h2>Limpieza y activacion de chakras</h2>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card__img"></div>
+          <div class="card__title">
+            <h2>Visualización de tu destino</h2>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card__img"></div>
+          <div class="card__title">
+            <h2>Alemar tu guia en tu destino</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+
+    <div class="contact-section">
+      <div class="contact-heading">
+        <a name="contact" href="#home"><h2>Contactame</h2></a>
+        <div class="divider"></div>
+      </div>
+
+      <div class="container-contact">
+        <div class="contact-form">
+          <h4>Dejame un mensaje...</h4>
+          <form class="form-group" id="form">
+            <input
+              type="text"
+              id="subject"
+              placeholder="Tu nombre"
+              name="subject"
+            />
+            <input
+              type="email"
+              id="email"
+              placeholder="Tu Email"
+              name="email"
+            />
+            <textarea
+              id="message"
+              placeholder="Por favor deja tu mensaje aquí..."
+              name="message"
+            ></textarea>
+            <button type="submit" class="btn-submit">Send message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <footer class="footer">
+      <div class="footer-content">
+        <h2>Hugo Madariaga</h2>
+        <h5>Guia espiritual</h5>
+      </div>
+    </footer>
+    <script src="./js/scripts.js"></script>
+    <script src="./js/sendEmail.js"></script>
+  </body>
+</html>
